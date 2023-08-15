@@ -52,11 +52,11 @@ body {
     border-radius: 10px;
     display: flex;
     align-items: center;
-    
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; 
 }
 
 .pizza-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-3px);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
